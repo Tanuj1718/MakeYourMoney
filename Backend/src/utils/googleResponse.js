@@ -21,7 +21,7 @@ function getGeminiModel() {
 function generatePrompt(budget, location, language) {
   return `Analyze the budget and location extracted from a form:
 Please provide the following analysis in ${language} language:
-1. 5 ideas of starting a business in ${location} with ${budget} budget.
+1. 5 unique business ideas in ${location} with ${budget} budget.
 2. Each idea should contain title, description, budget_allocation(it should be a object which contains 5 key-value pairs with keys: p1, p2, p3, p4, p5), profit_margin and potential.
 3. Each idea should also contain an Indian governmet_scheme (if available) for helping financially.
 4. Each idea should be different.
