@@ -2,19 +2,20 @@
 
 Make Your Money is a web application designed to help individuals in rural or developing rural areas start their own businesses, even with a small budget. The platform provides AI personalized business ideas and also suggests relevant government schemes, making it easier for users to take advantage of policies they may not be aware of.
 
-##Features
+## Features
 
-###User Authentication: Secure signup and login functionality using JWT for token-based authentication.
+### User Authentication: Secure signup and login functionality using JWT for token-based authentication.
 
-###Dashboard: Users can access a personalized dashboard once logged in.
+### Dashboard: Users can access a personalized dashboard once logged in.
 
-###Business Idea Generator: The core functionality allows users to input their budget, location, and language preferences. The platform generates 5 business ideas tailored to their input, including:
-Title and description
-Budget allocation
-Profit margin
-Potential of the business
-Government schemes that could help start or support the business
-The response is generated in the user's desired language, helping users take full advantage of available resources.
+### Business Idea Generator: The core functionality allows users to input their budget, location, and language preferences. The platform generates 5 business ideas tailored to their input, including:
+
+* Title and description
+* Budget allocation
+* Profit margin
+* Potential of the business
+* Government schemes that could help start or support the business
+* The response is generated in the user's desired language, helping users take full advantage of available resources.
 
 
 ##Main Aim
