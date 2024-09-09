@@ -8,7 +8,7 @@ Make Your Money is a web application designed to help individuals in rural or de
 Secure signup and login functionality using JWT for token-based authentication.
 
 ### Dashboard
-Users can access a personalized dashboard once logged in.
+Users can access a personalized dashboard once logged in. Also there is a tutorial section where one can learn how to use this platform and different business strategies.
 
 ### Business Idea Generator
 The core functionality allows users to input their budget, location, and language preferences. The platform generates 5 business ideas tailored to their input, including:
@@ -17,7 +17,7 @@ The core functionality allows users to input their budget, location, and languag
 * Budget allocation
 * Profit margin
 * Potential of the business
-* Government schemes that could help start or support the business
+* Government schemes/policies that could help start or support the business
 * The response is generated in the user's desired language, helping users take full advantage of available resources.
 
 
@@ -32,68 +32,63 @@ The future direction of this project is to offer AI-generated suggestions for ex
 
 ### Frontend
 
-Next.js: Server-side rendering and routing.
-Tailwind CSS: Utility-first CSS framework for styling.
-Backend
-Node.js: Backend logic and API handling.
-MongoDB: NoSQL database to store user information.
-Express: Web framework for creating REST APIs.
-Packages Used
-bcryptjs: Used for password hashing.
-cors: Middleware to handle Cross-Origin Resource Sharing.
-dotenv: For loading environment variables from a .env file.
-express: Web framework for building API routes.
-jsonwebtoken: For generating and verifying JWT tokens for user authentication.
-mongoose: MongoDB object modeling tool for managing database operations.
+* Next.js: Server-side rendering and routing.
+* Tailwind CSS: Utility-first CSS framework for styling.
+
+### Backend
+
+* Node.js: Backend logic and API handling.
+* MongoDB: NoSQL database to store user information.
+* Express: Web framework for creating REST APIs.
+
+### Packages Used
+
+* bcryptjs: Used for password hashing.
+* cors: Middleware to handle Cross-Origin Resource Sharing.
+* dotenv: For loading environment variables from a .env file.
+* express: Web framework for building API routes.
+* jsonwebtoken: For generating and verifying JWT tokens for user authentication.
+* mongoose: MongoDB object modeling tool for managing database operations.
 
 
+## Setup and Installation
 
-Setup and Installation
-Clone the repository:
+### Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/Tanuj1718/make-your-money.git
-Navigate to the project directory:
+                    git clone https://github.com/Tanuj1718/MakeYourMoney
 
-bash
-Copy code
-cd make-your-money
-Install dependencies for both frontend and backend:
+**Frontend:**
 
-bash
-Copy code
-# Frontend
-cd frontend
-npm install
+Navigate to the frontend directory:
 
-# Backend
-cd ../backend
-npm install
-Create a .env file in the backend directory: Define the following environment variables:
+                            cd Frontend
 
-env
-Copy code
-MONGODB_URI=your-mongodb-connection-string
-JWT_SECRET=your-jwt-secret
-Run the project:
+Install dependencies and start the development server:
 
-Start the backend server:
+                            npm install
+                            npm run dev
+**Backend:**
 
-bash
-Copy code
-cd backend
-node index.js
-Start the frontend development server:
+Navigate to the backend directory:
+                            cd backend
+Install dependencies:
 
-bash
-Copy code
-cd ../frontend
-npm run dev
-Access the application: Open your browser and go to http://localhost:3000.
+                            npm install
 
-Usage
-Sign up or log in using the authentication system.
-Fill out the business idea form with your budget, location, and language preference.
-Receive 5 AI-generated business ideas, which are structured and tailored to your inputs.
-Use the dashboard to manage your account and view your past interactions.
+**Define the following environment variables in .env file:**
+
+* MONGODB_URI=your-mongodb-connection-string
+* JWT_SECRET=your-jwt-secret
+* GEMINI_API_KEY = your-api-key
+
+**Start the server:**
+
+                            npm run dev
+
+
+## Usage
+
+* Sign up or log in using the authentication system.
+* Fill out the business idea form with your budget, location, and language preference.
+* Receive 5 AI-generated business ideas, which are structured and tailored to your inputs.
+* Use the dashboard to manage your account and view your past interactions.
