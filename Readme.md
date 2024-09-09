@@ -1,4 +1,4 @@
-                                        MAKE YOUR MONEY
+# MAKE YOUR MONEY
 
 Make Your Money is a web application designed to help individuals in rural or developing rural areas start their own businesses, even with a small budget. The platform provides AI personalized business ideas and also suggests relevant government schemes, making it easier for users to take advantage of policies they may not be aware of.
 
