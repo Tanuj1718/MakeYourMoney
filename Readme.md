@@ -4,11 +4,14 @@ Make Your Money is a web application designed to help individuals in rural or de
 
 ## Features
 
-### User Authentication: Secure signup and login functionality using JWT for token-based authentication.
+### User Authentication
+Secure signup and login functionality using JWT for token-based authentication.
 
-### Dashboard: Users can access a personalized dashboard once logged in.
+### Dashboard
+Users can access a personalized dashboard once logged in.
 
-### Business Idea Generator: The core functionality allows users to input their budget, location, and language preferences. The platform generates 5 business ideas tailored to their input, including:
+### Business Idea Generator
+The core functionality allows users to input their budget, location, and language preferences. The platform generates 5 business ideas tailored to their input, including:
 
 * Title and description
 * Budget allocation
