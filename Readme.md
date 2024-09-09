@@ -21,16 +21,16 @@ The core functionality allows users to input their budget, location, and languag
 * The response is generated in the user's desired language, helping users take full advantage of available resources.
 
 
-##Main Aim
+## Main Aim
 
 The main goal of Make Your Money is to empower individuals, especially in rural or developing rural areas, by providing them with the knowledge and tools to start their own businesses. Many people in these areas are unaware of what they can do to start a business or what government policies are available to assist them. This project not only generates business ideas but also highlights government schemes that can help users take advantage of available financial or infrastructural support.
 
-##Future Implementation
+## Future Implementation
 The future direction of this project is to offer AI-generated suggestions for existing businesses. These suggestions will focus on helping business owners increase their profits and adopt sustainable practices, contributing to both financial growth and environmental sustainability.
 
-##Technology Stack
+## Technology Stack
 
-###Frontend
+### Frontend
 
 Next.js: Server-side rendering and routing.
 Tailwind CSS: Utility-first CSS framework for styling.
