@@ -70,6 +70,7 @@ Install dependencies and start the development server:
 **Backend:**
 
 Navigate to the backend directory:
+
                             cd Backend
 Install dependencies:
 
