@@ -61,7 +61,7 @@ The future direction of this project is to offer AI-generated suggestions for ex
 
 Navigate to the frontend directory:
 
-                            cd Frontend
+                            cd frontend
 
 Install dependencies and start the development server:
 
@@ -70,7 +70,7 @@ Install dependencies and start the development server:
 **Backend:**
 
 Navigate to the backend directory:
-                            cd backend
+                            cd Backend
 Install dependencies:
 
                             npm install
